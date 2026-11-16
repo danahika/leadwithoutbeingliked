@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Lead Without Being Liked · Biblical Strategies for Leading Difficult People</title>
+  <meta name="description" content="Lead with courage, wisdom, and godly authority. A premium ebook for Christian leaders who want to stop people-pleasing and lead from conviction.">
+  <!-- Security: restrict resource loading; configure additional protections as HTTP headers on the hosting server. -->
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; form-action 'self' https://checkout.bachs.io; frame-src 'none'; upgrade-insecure-requests">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <style>
+    /* RESET & BASE */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --navy: #0B1A2F;
+      --navy-deep: #060F1C;
+      --navy-light: #1D2F45;
+      --gold: #D4AF37;
+      --gold-light: #F5E7B2;
+      --gold-dark: #B8942E;
+      --cream: #FBF7EF;
+      --white: #FFFFFF;
+      --off-white: #F8F6F2;
+      --text-dark: #142433;
+      --text-soft: #3A4A5C;
+      --shadow-premium: 0 30px 50px -15px rgba(0, 0, 0, 0.3);
+      --shadow-soft: 0 15px 30px -10px rgba(0, 0, 0, 0.08);
+      --radius-lg: 28px;
+      --radius-md: 18px;
+      --radius-sm: 12px;
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--cream);
+      color: var(--text-dark);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* TYPOGRAPHY */
+    h1, h2, h3, h4 {
+      font-family: var(--font-serif);
+      font-weight: 600;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4.5vw, 3rem);
+      font-weight: 600;
+    }
+
+    h3 {
+      font-size: clamp(1.4rem, 3vw, 2rem);
+    }
+
+    .section-label {
+      font-family: var(--font-sans);
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--gold-dark);
+      margin-bottom: 12px;
+    }
+
+    /* BUTTONS */
+    .btn-gold {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--gold);
+      color: var(--navy-deep);
+      font-family: var(--font-sans);
+      font-weight: 700;
+      font-size: 1.15rem;
+      padding: 18px 48px;
+      border-radius: 60px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      transition: all 0.25s ease;
+      box-shadow: 0 12px 28px -8px rgba(212, 175, 55, 0.4);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      line-height: 1.3;
+    }
+
+    .btn-gold:hover {
+      background: #E2C14A;
+      transform: translateY(-3px);
+      box-shadow: 0 20px 34px -10px rgba(212, 175, 55, 0.55);
+    }
+
+    .btn-gold:active {
+      transform: translateY(0);
+      box-shadow: 0 8px 18px -6px rgba(212, 175, 55, 0.5);
+    }
+
+    .btn-gold i {
+      margin-left: 8px;
+      font-style: normal;
+      font-size: 1.3rem;
+    }
+
+    /* SECTION SPACING */
+    section {
+      padding: 90px 0;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        padding: 60px 0;
+      }
+    }
+
+    /* ---------- HERO SECTION ---------- */
+    .hero {
+      background: var(--navy-deep);
+      background-image: radial-gradient(circle at 20% 30%, #162B44 0%, #060F1C 90%);
+      color: var(--white);
+      padding: 40px 0 80px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 120px;
+      background: linear-gradient(to top, var(--cream), transparent);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 50px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-content h1 {
+      color: var(--white);
+      margin-bottom: 24px;
+      font-weight: 700;
+    }
+
+    .hero-content h1 .highlight-gold {
+      color: var(--gold);
+      display: inline-block;
+    }
+
+    .hero-subhead {
+      font-size: 1.15rem;
+      color: #CED9E5;
+      margin-bottom: 18px;
+      font-weight: 400;
+      max-width: 90%;
+    }
+
+    .hero-support {
+      font-size: 1rem;
+      color: #A9B8C9;
+      margin-bottom: 36px;
+      max-width: 90%;
+      border-left: 3px solid var(--gold);
+      padding-left: 18px;
+    }
+
+    .hero .btn-gold {
+      margin-top: 8px;
+    }
+
+    /* 3D EBOOK MOCKUP - pure CSS */
+    .ebook-mockup {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      perspective: 1400px;
+      filter: drop-shadow(0 30px 35px rgba(0, 0, 0, 0.5));
+      transition: transform 0.3s ease;
+    }
+
+    .ebook {
+      width: 280px;
+      height: 390px;
+      background: var(--navy);
+      background-image: linear-gradient(145deg, #1D2F45 0%, #0B1A2F 100%);
+      border-radius: 12px 20px 20px 12px;
+      box-shadow: 
+        -12px 12px 0 rgba(0,0,0,0.2),
+        0 30px 40px -10px rgba(0,0,0,0.6),
+        inset 0 0 0 1px rgba(212, 175, 55, 0.3);
+      position: relative;
+      transform: rotateY(-8deg) rotateX(4deg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 28px 18px;
+      text-align: center;
+      border-left: 5px solid var(--gold);
+      transition: transform 0.3s ease;
+    }
+
+    .ebook:hover {
+      transform: rotateY(-4deg) rotateX(2deg) scale(1.02);
+    }
+
+    .ebook .book-title {
+      font-family: var(--font-serif);
+      font-weight: 700;
+      font-size: 1.7rem;
+      color: var(--gold-light);
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      margin-bottom: 18px;
+      text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    }
+
+    .ebook .book-sub {
+      font-family: var(--font-sans);
+      font-weight: 400;
+      font-size: 0.65rem;
+      letter-spacing: 0.06em;
+      color: #D9E2EC;
+      line-height: 1.5;
+      max-width: 90%;
+      margin: 0 auto;
+      border-top: 1px solid rgba(212, 175, 55, 0.5);
+      padding-top: 14px;
+      text-transform: uppercase;
+    }
+
+    .ebook .book-author {
+      margin-top: 28px;
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      color: var(--gold);
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    .ebook::before {
+      content: "";
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      border: 1px solid rgba(212, 175, 55, 0.2);
+      border-radius: 6px;
+      pointer-events: none;
+    }
+
+    /* mobile hero */
+    @media (max-width: 900px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 40px;
+      }
+
+      .hero-subhead,
+      .hero-support {
+        max-width: 100%;
+      }
+
+      .hero-support {
+        border-left: none;
+        border-top: 2px solid var(--gold);
+        padding-top: 18px;
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+      }
+
+      .ebook-mockup {
+        margin-top: 10px;
+      }
+
+      .ebook {
+        width: 240px;
+        height: 340px;
+        transform: rotateY(-6deg) rotateX(2deg);
+      }
+
+      .ebook .book-title {
+        font-size: 1.45rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .ebook {
+        width: 220px;
+        height: 310px;
+      }
+      .ebook .book-title {
+        font-size: 1.3rem;
+      }
+    }
+
+    /* ---------- PROBLEM SECTION ---------- */
+    .problem {
+      background: var(--white);
+    }
+
+    .problem-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      margin-top: 40px;
+    }
+
+    .problem-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 18px;
+      padding: 18px 0;
+      border-bottom: 1px solid #EBE5D9;
+    }
+
+    .problem-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--cream);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--gold-dark);
+      font-size: 1.4rem;
+      font-weight: 700;
+      font-family: var(--font-serif);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.02);
+    }
+
+    .problem-text {
+      font-size: 1.05rem;
+      color: var(--text-soft);
+      font-weight: 400;
+    }
+
+    .problem-closing {
+      margin-top: 40px;
+      background: var(--navy);
+      padding: 40px 48px;
+      border-radius: var(--radius-lg);
+      color: var(--white);
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      line-height: 1.4;
+      text-align: center;
+      font-weight: 500;
+      box-shadow: var(--shadow-premium);
+      border-left: 6px solid var(--gold);
+    }
+
+    @media (max-width: 768px) {
+      .problem-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+      .problem-closing {
+        font-size: 1.2rem;
+        padding: 28px 20px;
+        margin-top: 30px;
+      }
+    }
+
+    /* ---------- BOOK INTRO ---------- */
+    .book-intro {
+      background: var(--cream);
+    }
+
+    .book-intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .intro-text h2 {
+      color: var(--navy);
+      margin-bottom: 28px;
+    }
+
+    .intro-text p {
+      font-size: 1.1rem;
+      color: var(--text-soft);
+      margin-bottom: 20px;
+    }
+
+    .biblical-examples {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px 30px;
+      margin: 30px 0;
+      list-style: none;
+    }
+
+    .biblical-examples li {
+      font-weight: 500;
+      color: var(--navy);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .biblical-examples li::before {
+      content: "✦";
+      color: var(--gold);
+      font-size: 1.2rem;
+    }
+
+    .intro-highlight {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      color: var(--navy);
+      font-weight: 600;
+      border-left: 4px solid var(--gold);
+      padding-left: 24px;
+      margin-top: 26px;
+    }
+
+    @media (max-width: 900px) {
+      .book-intro-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .ebook-mockup {
+        order: -1;
+      }
+    }
+
+    /* ---------- WHAT YOU WILL LEARN ---------- */
+    .learn {
+      background: var(--white);
+    }
+
+    .learn h2 {
+      color: var(--navy);
+      margin-bottom: 20px;
+    }
+
+    .learn-sub {
+      color: var(--text-soft);
+      font-size: 1.1rem;
+      margin-bottom: 50px;
+      max-width: 700px;
+    }
+
+    .learn-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .learn-card {
+      background: var(--cream);
+      padding: 28px 28px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      transition: all 0.25s ease;
+      border: 1px solid rgba(212, 175, 55, 0.15);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.02);
+    }
+
+    .learn-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-soft);
+      border-color: rgba(212, 175, 55, 0.4);
+    }
+
+    .learn-number {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--gold);
+      line-height: 1;
+      min-width: 40px;
+    }
+
+    .learn-card p {
+      font-size: 1.05rem;
+      color: var(--text-dark);
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 768px) {
+      .learn-grid {
+        grid-template-columns: 1fr;
+      }
+      .learn-card {
+        padding: 20px;
+      }
+    }
+
+    /* ---------- TRANSFORMATION (DARK SECTION) ---------- */
+    .transformation {
+      background: var(--navy-deep);
+      background-image: radial-gradient(circle at 80% 20%, #162B44 0%, #060F1C 90%);
+      color: var(--white);
+      padding: 100px 0;
+    }
+
+    .transformation h2 {
+      color: var(--gold-light);
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    .transformation .lead {
+      font-size: 1.2rem;
+      color: #B8C7D9;
+      max-width: 750px;
+      margin-bottom: 60px;
+    }
+
+    .before-after {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+
+    .ba-col {
+      background: rgba(255,255,255,0.04);
+      border-radius: var(--radius-lg);
+      padding: 40px 36px;
+      border: 1px solid rgba(212, 175, 55, 0.2);
+      backdrop-filter: blur(4px);
+    }
+
+    .ba-col h3 {
+      font-family: var(--font-sans);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 28px;
+      color: var(--gold);
+    }
+
+    .ba-list {
+      list-style: none;
+    }
+
+    .ba-list li {
+      padding: 14px 0;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 1.05rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .ba-list li:last-child {
+      border-bottom: none;
+    }
+
+    .ba-list.before li::before {
+      content: "✕";
+      color: #C97A7A;
+      font-weight: 700;
+      font-size: 1.2rem;
+      width: 24px;
+    }
+
+    .ba-list.after li::before {
+      content: "✓";
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 1.2rem;
+      width: 24px;
+    }
+
+    @media (max-width: 768px) {
+      .before-after {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .ba-col {
+        padding: 28px 22px;
+      }
+      .transformation {
+        padding: 70px 0;
+      }
+    }
+
+    /* ---------- WHO THIS IS FOR ---------- */
+    .who {
+      background: var(--white);
+    }
+
+    .who h2 {
+      color: var(--navy);
+      margin-bottom: 40px;
+    }
+
+    .who-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px 30px;
+      list-style: none;
+    }
+
+    .who-grid li {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: var(--text-dark);
+      padding: 14px 20px;
+      background: var(--cream);
+      border-radius: 40px;
+      border-left: 4px solid var(--gold);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.02);
+    }
+
+    .who-grid li::before {
+      content: "•";
+      color: var(--gold);
+      font-size: 1.8rem;
+      line-height: 0;
+      margin-right: 4px;
+    }
+
+    @media (max-width: 768px) {
+      .who-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ---------- SALES SECTION (2ND BUY BUTTON) ---------- */
+    .sales {
+      background: var(--cream);
+      padding: 90px 0;
+    }
+
+    .sales-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-premium);
+      display: grid;
+      grid-template-columns: 0.9fr 1.2fr;
+      align-items: center;
+      gap: 30px;
+      padding: 50px 50px;
+      border: 1px solid rgba(212, 175, 55, 0.2);
+    }
+
+    .sales-text h2 {
+      font-size: 2.2rem;
+      color: var(--navy);
+      margin-bottom: 14px;
+    }
+
+    .sales-text .sales-sub {
+      font-size: 1.2rem;
+      color: var(--gold-dark);
+      font-weight: 600;
+      font-family: var(--font-serif);
+      margin-bottom: 18px;
+    }
+
+    .sales-text p {
+      color: var(--text-soft);
+      margin-bottom: 28px;
+      font-size: 1.05rem;
+      max-width: 90%;
+    }
+
+    .sales .ebook-mockup .ebook {
+      transform: rotateY(-5deg) rotateX(2deg);
+    }
+
+    @media (max-width: 900px) {
+      .sales-card {
+        grid-template-columns: 1fr;
+        padding: 40px 28px;
+        text-align: center;
+      }
+      .sales-text p {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .sales .ebook-mockup {
+        margin-bottom: 20px;
+      }
+    }
+
+    /* ---------- INSTANT DELIVERY ---------- */
+    .delivery {
+      background: var(--navy);
+      color: var(--white);
+      padding: 80px 0;
+    }
+
+    .delivery h2 {
+      color: var(--gold-light);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .delivery-steps {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 18px 30px;
+      margin: 50px 0 40px;
+      list-style: none;
+    }
+
+    .delivery-steps li {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(255,255,255,0.06);
+      padding: 16px 30px;
+      border-radius: 60px;
+      font-weight: 500;
+      border: 1px solid rgba(212, 175, 55, 0.2);
+      font-size: 1rem;
+    }
+
+    .delivery-steps li span {
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 1.3rem;
+    }
+
+    .delivery-note {
+      text-align: center;
+      color: #A9B8C9;
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1rem;
+      background: rgba(0,0,0,0.2);
+      padding: 20px 28px;
+      border-radius: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .delivery-steps {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .delivery-steps li {
+        justify-content: center;
+      }
+    }
+
+    /* ---------- FINAL CTA (3RD BUTTON) ---------- */
+    .final-cta {
+      background: var(--cream);
+      padding: 100px 0 80px;
+      text-align: center;
+      position: relative;
+    }
+
+    .final-cta h2 {
+      font-size: clamp(2rem, 4.5vw, 3.2rem);
+      color: var(--navy);
+      max-width: 1000px;
+      margin: 0 auto 30px;
+      line-height: 1.2;
+    }
+
+    .final-cta p {
+      font-size: 1.2rem;
+      color: var(--text-soft);
+      max-width: 700px;
+      margin: 0 auto 36px;
+    }
+
+    .final-cta .ebook-mockup {
+      margin: 20px auto 40px;
+    }
+
+    .final-cta .ebook {
+      transform: rotateY(-2deg) rotateX(2deg);
+    }
+
+    /* subtle divider */
+    .gold-divider {
+      width: 80px;
+      height: 4px;
+      background: var(--gold);
+      border-radius: 2px;
+      margin: 30px auto;
+    }
+
+    /* mobile tweaks */
+    @media (max-width: 480px) {
+      .btn-gold {
+        padding: 16px 32px;
+        font-size: 1rem;
+        width: 100%;
+      }
+      .hero .btn-gold,
+      .sales .btn-gold,
+      .final-cta .btn-gold {
+        width: auto;
+        min-width: 260px;
+      }
+    }
+
+    /* utility */
+    .text-center {
+      text-align: center;
+    }
+
+    /* ensure exactly three buttons */
+    .btn-gold {
+      pointer-events: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1. HERO SECTION (BUTTON 1) -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="section-label" style="color:var(--gold);">LEAD WITHOUT BEING LIKED</div>
+        <h1>WHAT IF YOUR GREATEST LEADERSHIP PROBLEM ISN'T YOUR ABILITY TO LEAD… BUT YOUR NEED TO BE LIKED?</h1>
+        <p class="hero-subhead">You want to lead with love. You want to keep the peace. But trying to make everyone happy can weaken your decisions, silence your voice and make difficult people control your leadership.</p>
+        <p class="hero-support">Learn how to lead with biblical wisdom, establish boundaries, handle opposition and walk confidently in the authority God has given you.</p>
+        <!-- BUY NOW BUTTON #1 -->
+        <a href="https://checkout.bachs.io/pay/pl_e61332cb1564" class="btn-gold" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">BUY NOW <i>→</i></a>
+      </div>
+      <div class="ebook-mockup">
+        <div class="ebook">
+          <div class="book-title">LEAD<br>WITHOUT<br>BEING LIKED</div>
+          <div class="book-sub">Biblical Strategies for Leading Difficult People, Handling Opposition & Walking in Godly Authority</div>
+          <div class="book-author">EBOOK</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. PROBLEM SECTION -->
+  <section class="problem">
+    <div class="container">
+      <div class="section-label">THE REAL STRUGGLE</div>
+      <h2>ARE YOU LEADING PEOPLE OR CONSTANTLY TRYING TO PLEASE THEM?</h2>
+      <div class="problem-grid">
+        <div class="problem-item">
+          <div class="problem-icon">1</div>
+          <div class="problem-text">You hesitate to correct people because you fear being misunderstood.</div>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon">2</div>
+          <div class="problem-text">You avoid difficult conversations because you don't want conflict.</div>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon">3</div>
+          <div class="problem-text">You struggle to say NO without feeling guilty.</div>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon">4</div>
+          <div class="problem-text">You second-guess decisions because of people's opinions.</div>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon">5</div>
+          <div class="problem-text">You find it difficult to handle disrespectful or manipulative people.</div>
+        </div>
+        <div class="problem-item">
+          <div class="problem-icon">6</div>
+          <div class="problem-text">You compromise your convictions just to keep everyone happy.</div>
+        </div>
+      </div>
+      <div class="problem-closing">
+        Biblical leadership was never about winning everyone's approval. It was about remaining faithful to God's assignment.
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. BOOK INTRODUCTION -->
+  <section class="book-intro">
+    <div class="container book-intro-grid">
+      <div class="ebook-mockup">
+        <div class="ebook">
+          <div class="book-title">LEAD<br>WITHOUT<br>BEING LIKED</div>
+          <div class="book-sub">Biblical Strategies for Leading Difficult People, Handling Opposition & Walking in Godly Authority</div>
+          <div class="book-author">EBOOK</div>
+        </div>
+      </div>
+      <div class="intro-text">
+        <div class="section-label">A BIBLICAL FOUNDATION</div>
+        <h2>YOU CAN LEAD WITH LOVE WITHOUT LEADING FROM FEAR.</h2>
+        <p>Moses faced opposition. Nehemiah faced ridicule. David faced betrayal. Jesus Himself was rejected. Yet they continued to walk in their God-given assignments.</p>
+        <ul class="biblical-examples">
+          <li>Moses</li>
+          <li>Nehemiah</li>
+          <li>David</li>
+          <li>Jesus</li>
+        </ul>
+        <div class="intro-highlight">
+          You were not called to be everyone's favorite. You were called to be faithful.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. WHAT YOU WILL LEARN -->
+  <section class="learn">
+    <div class="container">
+      <div class="section-label">PRACTICAL WISDOM</div>
+      <h2>WHAT THIS BOOK WILL HELP YOU DEVELOP</h2>
+      <p class="learn-sub">Ten transformative principles that will reshape how you lead, correct, and stand firm.</p>
+      <div class="learn-grid">
+        <div class="learn-card"><span class="learn-number">01</span><p>Handle difficult and disrespectful people without losing your character.</p></div>
+        <div class="learn-card"><span class="learn-number">02</span><p>Respond to opposition without becoming bitter or defensive.</p></div>
+        <div class="learn-card"><span class="learn-number">03</span><p>Set boundaries without feeling guilty.</p></div>
+        <div class="learn-card"><span class="learn-number">04</span><p>Correct people while still walking in grace.</p></div>
+        <div class="learn-card"><span class="learn-number">05</span><p>Make unpopular decisions with confidence.</p></div>
+        <div class="learn-card"><span class="learn-number">06</span><p>Deal with manipulation, criticism and resistance.</p></div>
+        <div class="learn-card"><span class="learn-number">07</span><p>Stop confusing people-pleasing with biblical humility.</p></div>
+        <div class="learn-card"><span class="learn-number">08</span><p>Walk in God-given authority without becoming controlling.</p></div>
+        <div class="learn-card"><span class="learn-number">09</span><p>Lead firmly while keeping your heart aligned with God.</p></div>
+        <div class="learn-card"><span class="learn-number">10</span><p>Know when to pursue peace and when to stand your ground.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. EMOTIONAL TRANSFORMATION (DARK) -->
+  <section class="transformation">
+    <div class="container">
+      <div class="section-label" style="color:var(--gold);">THE SHIFT</div>
+      <h2>THIS ISN'T ABOUT BECOMING HARSH. IT'S ABOUT BECOMING UNSHAKABLE.</h2>
+      <p class="lead">Move from fear to courage, people-pleasing to conviction, hesitation to confident decisions, and insecurity to godly leadership.</p>
+      <div class="before-after">
+        <div class="ba-col">
+          <h3>BEFORE</h3>
+          <ul class="ba-list before">
+            <li>Afraid of disappointing people.</li>
+            <li>Avoiding difficult conversations.</li>
+            <li>Constantly seeking approval.</li>
+            <li>Struggling to establish boundaries.</li>
+            <li>Second-guessing leadership decisions.</li>
+          </ul>
+        </div>
+        <div class="ba-col">
+          <h3>AFTER</h3>
+          <ul class="ba-list after">
+            <li>Leading with biblical conviction.</li>
+            <li>Having difficult conversations with wisdom.</li>
+            <li>Making decisions confidently.</li>
+            <li>Establishing healthy boundaries.</li>
+            <li>Walking in God-given authority.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. WHO THIS BOOK IS FOR -->
+  <section class="who">
+    <div class="container">
+      <div class="section-label">DESIGNED FOR YOU</div>
+      <h2>THIS BOOK IS FOR YOU IF...</h2>
+      <ul class="who-grid">
+        <li>You are a Christian leader, pastor or ministry worker.</li>
+        <li>You manage people or lead a team.</li>
+        <li>You struggle with difficult personalities.</li>
+        <li>You find it hard to correct people.</li>
+        <li>You are tired of people-pleasing.</li>
+        <li>You want to lead with courage without losing your Christian values.</li>
+        <li>You desire to become a stronger and wiser leader.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 7. STRONG SALES SECTION (BUY BUTTON #2) -->
+  <section class="sales">
+    <div class="container">
+      <div class="sales-card">
+        <div class="ebook-mockup">
+          <div class="ebook">
+            <div class="book-title">LEAD<br>WITHOUT<br>BEING LIKED</div>
+            <div class="book-sub">Biblical Strategies for Leading Difficult People, Handling Opposition & Walking in Godly Authority</div>
+            <div class="book-author">EBOOK</div>
+          </div>
+        </div>
+        <div class="sales-text">
+          <div class="section-label">GET THE EBOOK</div>
+          <h2>LEAD WITHOUT BEING LIKED</h2>
+          <p class="sales-sub">Stop leading for approval. Start leading from conviction.</p>
+          <p>Equip yourself with biblical strategies to handle opposition, set boundaries, and walk in the authority God has given you.</p>
+          <!-- BUY NOW BUTTON #2 -->
+          <a href="https://checkout.bachs.io/pay/pl_e61332cb1564" class="btn-gold" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">BUY NOW <i>→</i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. INSTANT DIGITAL DELIVERY -->
+  <section class="delivery">
+    <div class="container">
+      <h2>GET YOUR EBOOK INSTANTLY</h2>
+      <ul class="delivery-steps">
+        <li><span>1</span> Pay</li>
+        <li><span>2</span> Confirm Payment</li>
+        <li><span>3</span> Download Your Ebook</li>
+        <li><span>4</span> Start Reading</li>
+      </ul>
+      <p class="delivery-note">After your payment is confirmed, your ebook will be available for you to download directly from the purchase confirmation page. No physical delivery. No waiting for a courier. Your digital book is ready for download after successful payment.</p>
+    </div>
+  </section>
+
+  <!-- 9. FINAL CALL TO ACTION (BUY BUTTON #3) -->
+  <section class="final-cta">
+    <div class="container">
+      <div class="section-label">YOUR NEXT STEP</div>
+      <h2>YOUR ASSIGNMENT IS BIGGER THAN SOMEONE'S OPINION OF YOU.</h2>
+      <p>You don't have to become harsh to become a strong leader. You don't have to sacrifice your convictions to keep people happy. Lead with courage. Lead with wisdom. Lead under God's authority.</p>
+      <div class="ebook-mockup">
+        <div class="ebook">
+          <div class="book-title">LEAD<br>WITHOUT<br>BEING LIKED</div>
+          <div class="book-sub">Biblical Strategies for Leading Difficult People, Handling Opposition & Walking in Godly Authority</div>
+          <div class="book-author">EBOOK</div>
+        </div>
+      </div>
+      <!-- BUY NOW BUTTON #3 -->
+      <a href="https://checkout.bachs.io/pay/pl_e61332cb1564" class="btn-gold" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">BUY NOW <i>→</i></a>
+      <div class="gold-divider"></div>
+    </div>
+  </section>
+
+  <!-- No other links, no additional pages, exactly three buy buttons -->
+</body>
+</html>
